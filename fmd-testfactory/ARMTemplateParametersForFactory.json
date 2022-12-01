@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fmd-testfactory"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"FileServer2_password": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://FMD-Leak-Me.vault.azure.net/"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "\\\\WIN-H4RINI0KJ64\\FileShare_Documents"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "Administrateur"
+		},
+		"FileServer2_properties_typeProperties_host": {
+			"value": "D:/"
+		},
+		"FileServer2_properties_typeProperties_userId": {
+			"value": "none"
+		}
+	}
+}
