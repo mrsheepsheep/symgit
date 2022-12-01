@@ -1,0 +1,17 @@
+{
+	"name": "FileServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:/",
+			"userId": "none",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYTYyM2RjOC0wNGNhLTQ0YTItYTUwYy1iYTljZTI3YWYxNmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfHostedIntegrationRunTime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

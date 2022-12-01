@@ -1,0 +1,9 @@
+{
+	"name": "fmd-testfactory",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f86c731-f4f6-4849-b61f-5e5aa5ed0297",
+		"tenantId": "3727d93a-38df-4797-bd59-e31b99032179"
+	}
+}
